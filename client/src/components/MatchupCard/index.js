@@ -1,21 +1,23 @@
 import React, { Component } from "react";
 import teamData from "../Data/teamData.json";
 
+import "./style.scss";
+
 export default class index extends Component {
   state = {};
 
   render() {
     return (
       <>
-        <ul>
+        <ul className="list-group" id="main">
           {teamData.map((team, idx) => (
             <li
               key={idx}
+              className="list-group-item text-white"
               style={{
                 backgroundColor: team.color1,
-                color: "#FFFFFF",
                 boxShadow: `4px 2px 1.5px ${team.color2}`,
-                // border: `2px solid ${team.color3}`,
+                textAlign: "center",
                 marginTop: "10px",
                 marginLeft: "auto",
                 marginRight: "auto",
@@ -25,7 +27,7 @@ export default class index extends Component {
                 padding: "20px",
               }}
             >
-              {team.teamName} ({team.teamAbv})
+              {team.teamAbv}
             </li>
           ))}
         </ul>

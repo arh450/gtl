@@ -65,8 +65,8 @@
   {
     "teamName": "Denver Broncos",
     "teamAbv": "DEN",
-    "color1": "#FB4F14",
-    "color2": "#002244",
+    "color1": "#002244",
+    "color2": "#FB4F14",
     "color3": "#FFFFFF"
   },
   {
@@ -184,8 +184,8 @@
   {
     "teamName": "Pittsburgh Steelers",
     "teamAbv": "PIT",
-    "color1": "#FFB612",
-    "color2": "#101820",
+    "color1": "#101820",
+    "color2": "#FFB612",
     "color3": "#A5ACAF"
   },
   {
@@ -206,8 +206,8 @@
     "teamName": "Tampa Bay Buccaneers",
     "teamAbv": "TB",
     "color1": "#A6192E",
-    "color2": "#FC4C02",
-    "color3": "#696158"
+    "color2": "#696158",
+    "color3": "#FC4C02"
   },
   {
     "teamName": "Tennessee Titans",
