@@ -1,0 +1,130 @@
+[
+  {
+    "teamName": "Arizona Cardinals",
+    "teamAbv": "ARI"
+  },
+  {
+    "teamName": "Atlanta Falcons",
+    "teamAbv": "ATL"
+  },
+  {
+    "teamName": "Baltimore Ravens",
+    "teamAbv": "BAL"
+  },
+  {
+    "teamName": "Buffalo Bills",
+    "teamAbv": "BUF"
+  },
+  {
+    "teamName": "Carolina Panthers",
+    "teamAbv": "CAR"
+  },
+  {
+    "teamName": "Chicago Bears",
+    "teamAbv": "CHI"
+  },
+  {
+    "teamName": "Cincinnati Bengals",
+    "teamAbv": "CIN"
+  },
+  {
+    "teamName": "Cleveland Browns",
+    "teamAbv": "CLE"
+  },
+  {
+    "teamName": "Dallas Cowboys",
+    "teamAbv": "DAL"
+  },
+  {
+    "teamName": "Denver Broncos",
+    "teamAbv": "DEN"
+  },
+  {
+    "teamName": "Detroit Lions",
+    "teamAbv": "DET"
+  },
+  {
+    "teamName": "Green Bay Packers",
+    "teamAbv": "GB"
+  },
+  {
+    "teamName": "Houston Texans",
+    "teamAbv": "HOU"
+  },
+  {
+    "teamName": "Indianapolis Colts",
+    "teamAbv": "IND"
+  },
+  {
+    "teamName": "Jacksonville Jaguars",
+    "teamAbv": "JAX"
+  },
+  {
+    "teamName": "Kansas City Chiefs",
+    "teamAbv": "KC"
+  },
+  {
+    "teamName": "Las Vegas Raiders",
+    "teamAbv": "LV"
+  },
+  {
+    "teamName": "Los Angeles Chargers",
+    "teamAbv": "LAC"
+  },
+  {
+    "teamName": "Los Angeles Rams",
+    "teamAbv": "LAR"
+  },
+  {
+    "teamName": "Miami Dolphins",
+    "teamAbv": "MIA"
+  },
+  {
+    "teamName": "Minnesota Vikings",
+    "teamAbv": "MIN"
+  },
+  {
+    "teamName": "New England Patriots",
+    "teamAbv": "NE"
+  },
+  {
+    "teamName": "New Orleans Saints",
+    "teamAbv": "NO"
+  },
+  {
+    "teamName": "New York Giants",
+    "teamAbv": "NYG"
+  },
+  {
+    "teamName": "New York Jets",
+    "teamAbv": "NYJ"
+  },
+  {
+    "teamName": "Philadelphia Eagles",
+    "teamAbv": "PHI"
+  },
+  {
+    "teamName": "Pittsburgh Steelers",
+    "teamAbv": "PIT"
+  },
+  {
+    "teamName": "San Francisco 49ers",
+    "teamAbv": "SF"
+  },
+  {
+    "teamName": "Seattle Seahawks",
+    "teamAbv": "SEA"
+  },
+  {
+    "teamName": "Tampa Bay Buccaneers",
+    "teamAbv": "TB"
+  },
+  {
+    "teamName": "Tennessee Titans",
+    "teamAbv": "TEN"
+  },
+  {
+    "teamName": "Washington Football Team",
+    "teamAbv": "WAS"
+  }
+]
