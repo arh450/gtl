@@ -1,130 +1,226 @@
 [
   {
     "teamName": "Arizona Cardinals",
-    "teamAbv": "ARI"
+    "teamAbv": "ARI",
+    "color1": "#97233F",
+    "color2": "#000000",
+    "color3": "#FFB612"
   },
   {
     "teamName": "Atlanta Falcons",
-    "teamAbv": "ATL"
+    "teamAbv": "ATL",
+    "color1": "#A71930",
+    "color2": "#000000",
+    "color3": "#A5ACAF"
   },
   {
     "teamName": "Baltimore Ravens",
-    "teamAbv": "BAL"
+    "teamAbv": "BAL",
+    "color1": "#241773",
+    "color2": "#000000",
+    "color3": "#9E7C0C"
   },
   {
     "teamName": "Buffalo Bills",
-    "teamAbv": "BUF"
+    "teamAbv": "BUF",
+    "color1": "#00338D",
+    "color2": "#C60C30",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "Carolina Panthers",
-    "teamAbv": "CAR"
+    "teamAbv": "CAR",
+    "color1": "#0085CA",
+    "color2": "#101820",
+    "color3": "#BFC0BF"
   },
   {
     "teamName": "Chicago Bears",
-    "teamAbv": "CHI"
+    "teamAbv": "CHI",
+    "color1": "#0B162A",
+    "color2": "#C83803",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "Cincinnati Bengals",
-    "teamAbv": "CIN"
+    "teamAbv": "CIN",
+    "color1": "#FB4F14",
+    "color2": "#000000",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "Cleveland Browns",
-    "teamAbv": "CLE"
+    "teamAbv": "CLE",
+    "color1": "#311D00",
+    "color2": "#FF3C00",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "Dallas Cowboys",
-    "teamAbv": "DAL"
+    "teamAbv": "DAL",
+    "color1": "#003594",
+    "color2": "#041E42",
+    "color3": "#869397"
   },
   {
     "teamName": "Denver Broncos",
-    "teamAbv": "DEN"
+    "teamAbv": "DEN",
+    "color1": "#FB4F14",
+    "color2": "#002244",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "Detroit Lions",
-    "teamAbv": "DET"
+    "teamAbv": "DET",
+    "color1": "#0076B6",
+    "color2": "#B0B7BC",
+    "color3": "#000000"
   },
   {
     "teamName": "Green Bay Packers",
-    "teamAbv": "GB"
+    "teamAbv": "GB",
+    "color1": "#203731",
+    "color2": "#FFB612",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "Houston Texans",
-    "teamAbv": "HOU"
+    "teamAbv": "HOU",
+    "color1": "#03202F",
+    "color2": "#A71930",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "Indianapolis Colts",
-    "teamAbv": "IND"
+    "teamAbv": "IND",
+    "color1": "#002C5F",
+    "color2": "#A2AAAD",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "Jacksonville Jaguars",
-    "teamAbv": "JAX"
+    "teamAbv": "JAX",
+    "color1": "#101820",
+    "color2": "#D7A22A",
+    "color3": "#006778"
   },
   {
     "teamName": "Kansas City Chiefs",
-    "teamAbv": "KC"
+    "teamAbv": "KC",
+    "color1": "#E31837",
+    "color2": "#FFB81C",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "Las Vegas Raiders",
-    "teamAbv": "LV"
+    "teamAbv": "LV",
+    "color1": "#000000",
+    "color2": "#A5ACAF",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "Los Angeles Chargers",
-    "teamAbv": "LAC"
+    "teamAbv": "LAC",
+    "color1": "#002A5E",
+    "color2": "#FFC20E",
+    "color3": "#0080C6"
   },
   {
     "teamName": "Los Angeles Rams",
-    "teamAbv": "LAR"
+    "teamAbv": "LAR",
+    "color1": "#003594",
+    "color2": "#FFA300",
+    "color3": "#FF8200"
   },
   {
     "teamName": "Miami Dolphins",
-    "teamAbv": "MIA"
+    "teamAbv": "MIA",
+    "color1": "#008E97",
+    "color2": "#FC4C02",
+    "color3": "#005778"
   },
   {
     "teamName": "Minnesota Vikings",
-    "teamAbv": "MIN"
+    "teamAbv": "MIN",
+    "color1": "#4F2683",
+    "color2": "#FFC62F",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "New England Patriots",
-    "teamAbv": "NE"
+    "teamAbv": "NE",
+    "color1": "#002244",
+    "color2": "#C60C30",
+    "color3": "#B0B7BC"
   },
   {
     "teamName": "New Orleans Saints",
-    "teamAbv": "NO"
+    "teamAbv": "NO",
+    "color1": "#D3BC8D",
+    "color2": "#101820",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "New York Giants",
-    "teamAbv": "NYG"
+    "teamAbv": "NYG",
+    "color1": "#0B2265",
+    "color2": "#A71930",
+    "color3": "#A5ACAF"
   },
   {
     "teamName": "New York Jets",
-    "teamAbv": "NYJ"
+    "teamAbv": "NYJ",
+    "color1": "#125740",
+    "color2": "#000000",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "Philadelphia Eagles",
-    "teamAbv": "PHI"
+    "teamAbv": "PHI",
+    "color1": "#004C54",
+    "color2": "#A5ACAF",
+    "color3": "#000000"
   },
   {
     "teamName": "Pittsburgh Steelers",
-    "teamAbv": "PIT"
+    "teamAbv": "PIT",
+    "color1": "#FFB612",
+    "color2": "#101820",
+    "color3": "#A5ACAF"
   },
   {
     "teamName": "San Francisco 49ers",
-    "teamAbv": "SF"
+    "teamAbv": "SF",
+    "color1": "#AA0000",
+    "color2": "#B3995D",
+    "color3": "#FFFFFF"
   },
   {
     "teamName": "Seattle Seahawks",
-    "teamAbv": "SEA"
+    "teamAbv": "SEA",
+    "color1": "#002244",
+    "color2": "#69BE28",
+    "color3": "#A5ACAF"
   },
   {
     "teamName": "Tampa Bay Buccaneers",
-    "teamAbv": "TB"
+    "teamAbv": "TB",
+    "color1": "#A6192E",
+    "color2": "#FC4C02",
+    "color3": "#696158"
   },
   {
     "teamName": "Tennessee Titans",
-    "teamAbv": "TEN"
+    "teamAbv": "TEN",
+    "color1": "#0C2340",
+    "color2": "#4B92DB",
+    "color3": "#C8102E"
   },
   {
     "teamName": "Washington Football Team",
-    "teamAbv": "WAS"
+    "teamAbv": "WAS",
+    "color1": "#773141",
+    "color2": "#FFB612",
+    "color3": "#FFFFFF"
   }
 ]
