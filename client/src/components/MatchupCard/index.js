@@ -1,8 +1,13 @@
 import React, { Component } from "react";
 import { Col, Row, Button, Table } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMinusCircle, faPlusCircle } from "@fortawesome/free-solid-svg-icons";
 import teamData from "../Data/teamData.json";
 
 import "./style.scss";
+
+const minus = <FontAwesomeIcon icon={faMinusCircle} />;
+const plus = <FontAwesomeIcon icon={faPlusCircle} />;
 
 export default class index extends Component {
   state = {};
@@ -10,13 +15,16 @@ export default class index extends Component {
   render() {
     return (
       <>
+        <i class="fas fa-minus-circle"></i>
         <Row className="mx-auto ">
           <Col md={5} className="mx-auto">
-            <Table>
+            <Table style={{ border: "none" }}>
               <thead responsive="md">
                 <tr>
-                  <th style={{ backgroundColor: "#425e6a" }}></th>
-                  <th style={{ backgroundColor: "#425e6a" }}>
+                  <th
+                    style={{ backgroundColor: "#425e6a", border: "none" }}
+                  ></th>
+                  <th style={{ backgroundColor: "#425e6a", border: "none" }}>
                     <p
                       style={{
                         backgroundColor: "#97233F",
@@ -34,7 +42,7 @@ export default class index extends Component {
                       ARI
                     </p>
                   </th>
-                  <th style={{ backgroundColor: "#425e6a" }}>
+                  <th style={{ backgroundColor: "#425e6a", border: "none" }}>
                     <p
                       className="text-center"
                       style={{
@@ -50,7 +58,7 @@ export default class index extends Component {
                       @
                     </p>
                   </th>
-                  <th style={{ backgroundColor: "#425e6a" }}>
+                  <th style={{ backgroundColor: "#425e6a", border: "none" }}>
                     <p
                       style={{
                         backgroundColor: "#97233F",
@@ -68,8 +76,10 @@ export default class index extends Component {
                       ARI
                     </p>
                   </th>
-                  <th style={{ backgroundColor: "#425e6a" }}></th>
-                  <th style={{ backgroundColor: "#fa6e06" }}>
+                  <th
+                    style={{ backgroundColor: "#425e6a", border: "none" }}
+                  ></th>
+                  <th style={{ backgroundColor: "#fa6e06", border: "none" }}>
                     <div
                       className="d-flex justify-content-center"
                       style={{
@@ -81,14 +91,62 @@ export default class index extends Component {
                         padding: "20px",
                       }}
                     >
-                      <Button variant="danger" className="mr-2">
-                        -
+                      <Button variant="outline-danger" className="mr-2">
+                        {minus}
                       </Button>
-                      <Button variant="success">+</Button>
+                      <Button variant="outline-success">{plus}</Button>
                     </div>
                   </th>
                 </tr>
               </thead>
+              <tbody>
+                <tr>
+                  <th
+                    style={{ backgroundColor: "#425e6a", border: "none" }}
+                  ></th>
+                  <th
+                    style={{ backgroundColor: "#425e6a", border: "none" }}
+                  ></th>
+                  <th
+                    style={{ backgroundColor: "#425e6a", border: "none" }}
+                  ></th>
+                  <th
+                    style={{
+                      backgroundColor: "#425e6a",
+                      border: "none",
+                    }}
+                  >
+                    <p
+                      style={{
+                        margin: "0px 0px 0px 0px",
+                        textAlign: "center",
+                        verticalAlign: "baseline",
+                      }}
+                    >
+                      ARI
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px 0px 0px 0px",
+                        textAlign: "center",
+                        verticalAlign: "baseline",
+                      }}
+                    >
+                      by +10.5
+                    </p>
+                  </th>
+                  <th
+                    style={{ backgroundColor: "#425e6a", border: "none" }}
+                  ></th>
+                  <th style={{ backgroundColor: "#fa6e06", border: "none" }}>
+                    <div>
+                      <Button variant="secondary" size="sm" block>
+                        Submit
+                      </Button>
+                    </div>
+                  </th>
+                </tr>
+              </tbody>
             </Table>
           </Col>
         </Row>
