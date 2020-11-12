@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap");
 
-$moneyGreen: #85bb65;
+$moneyGreen: #244c3c;
 
 #mainNav {
   position: fixed;
@@ -10,7 +10,6 @@ $moneyGreen: #85bb65;
   z-index: 1;
   background-color: $moneyGreen;
   padding: 20px;
-  //   border-bottom: 1px #000 solid;
   box-shadow: 0px 3px 2px #000;
 }
 
