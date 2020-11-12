@@ -10,7 +10,23 @@ const minus = <FontAwesomeIcon icon={faMinusCircle} />;
 const plus = <FontAwesomeIcon icon={faPlusCircle} />;
 
 export default class index extends Component {
-  state = {};
+  state = {
+    tableBodyShow: "none",
+    value: 0,
+  };
+
+  decToggle = (event) => {
+    event.preventDefault();
+    this.setState({ tableBodyShow: "" });
+
+    this.setState({ value: this.state.value - 0.5 });
+  };
+
+  incToggle = (event) => {
+    event.preventDefault();
+    this.setState({ tableBodyShow: "" });
+    this.setState({ value: this.state.value + 0.5 });
+  };
 
   render() {
     const team1 = {
@@ -59,38 +75,42 @@ export default class index extends Component {
                   <th className="leftSide"></th>
                   <th className="rightSide">
                     <div className="d-flex justify-content-center buttonWrap">
-                      <Button variant="outline-danger" className="mr-2">
+                      <Button
+                        variant="outline-danger"
+                        className="mr-2"
+                        id="decButton"
+                        onClick={this.decToggle}
+                      >
                         {minus}
                       </Button>
-                      <Button variant="outline-success">{plus}</Button>
+                      <Button
+                        variant="outline-success"
+                        id="incButton"
+                        onClick={this.incToggle}
+                      >
+                        {plus}
+                      </Button>
                     </div>
                   </th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody style={{ display: this.state.tableBodyShow }}>
                 <tr>
                   <th className="leftSide"></th>
                   <th className="leftSide"></th>
                   <th className="leftSide"></th>
                   <th className="leftSide">
-                    <p
-                      style={{
-                        margin: "0px 0px 0px 0px",
-                        textAlign: "center",
-                        verticalAlign: "baseline",
-                      }}
-                    >
-                      ARI
-                    </p>
-                    <p
-                      style={{
-                        margin: "0px 0px 0px 0px",
-                        textAlign: "center",
-                        verticalAlign: "baseline",
-                      }}
-                    >
-                      by +10.5
-                    </p>
+                    <div className="d-flex justify-content-center">
+                      <p
+                        style={{
+                          margin: "0px 0px 0px 0px",
+                          textAlign: "center",
+                          verticalAlign: "baseline",
+                        }}
+                      >
+                        ARI by {this.state.value}
+                      </p>
+                    </div>
                   </th>
                   <th className="leftSide"></th>
                   <th className="rightSide">
