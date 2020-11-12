@@ -13,84 +13,52 @@ export default class index extends Component {
   state = {};
 
   render() {
+    const team1 = {
+      backgroundColor: "#97233F",
+      boxShadow: `4px 2px 1.5px #000000`,
+      textAlign: "center",
+      marginTop: "10px",
+      marginLeft: "auto",
+      marginRight: "auto",
+      fontSize: "1em",
+      width: "100%",
+      maxWidth: "71px",
+      padding: "20px",
+    };
+
+    const team2 = {
+      backgroundColor: "#97233F",
+      boxShadow: `4px 2px 1.5px #000000`,
+      textAlign: "center",
+      marginTop: "10px",
+      marginLeft: "auto",
+      marginRight: "auto",
+      fontSize: "1em",
+      width: "100%",
+      maxWidth: "71px",
+      padding: "20px",
+    };
     return (
       <>
         <i class="fas fa-minus-circle"></i>
         <Row className="mx-auto ">
           <Col md={5} className="mx-auto">
-            <Table style={{ border: "none" }}>
+            <Table>
               <thead responsive="md">
                 <tr>
-                  <th
-                    style={{ backgroundColor: "#425e6a", border: "none" }}
-                  ></th>
-                  <th style={{ backgroundColor: "#425e6a", border: "none" }}>
-                    <p
-                      style={{
-                        backgroundColor: "#97233F",
-                        boxShadow: `4px 2px 1.5px #000000`,
-                        textAlign: "center",
-                        marginTop: "10px",
-                        marginLeft: "auto",
-                        marginRight: "auto",
-                        fontSize: "1em",
-                        width: "100%",
-                        maxWidth: "71px",
-                        padding: "20px",
-                      }}
-                    >
-                      ARI
-                    </p>
+                  <th className="leftSide"></th>
+                  <th className="leftSide">
+                    <p style={team1}>ARI</p>
                   </th>
-                  <th style={{ backgroundColor: "#425e6a", border: "none" }}>
-                    <p
-                      className="text-center"
-                      style={{
-                        fontSize: "1em",
-                        marginTop: "10px",
-                        marginLeft: "auto",
-                        marginRight: "auto",
-                        width: "100%",
-                        maxWidth: "71px",
-                        padding: "15px",
-                      }}
-                    >
-                      @
-                    </p>
+                  <th className="leftSide">
+                    <p className="text-center atSym">@</p>
                   </th>
-                  <th style={{ backgroundColor: "#425e6a", border: "none" }}>
-                    <p
-                      style={{
-                        backgroundColor: "#97233F",
-                        boxShadow: `4px 2px 1.5px #000000`,
-                        textAlign: "center",
-                        marginTop: "10px",
-                        marginLeft: "auto",
-                        marginRight: "auto",
-                        fontSize: "1em",
-                        width: "100%",
-                        maxWidth: "71px",
-                        padding: "20px",
-                      }}
-                    >
-                      ARI
-                    </p>
+                  <th className="leftSide">
+                    <p style={team2}>ARI</p>
                   </th>
-                  <th
-                    style={{ backgroundColor: "#425e6a", border: "none" }}
-                  ></th>
-                  <th style={{ backgroundColor: "#fa6e06", border: "none" }}>
-                    <div
-                      className="d-flex justify-content-center"
-                      style={{
-                        marginBottom: "5px",
-                        width: "100%",
-                        marginLeft: "auto",
-                        marginRight: "auto",
-                        maxWidth: "71px",
-                        padding: "20px",
-                      }}
-                    >
+                  <th className="leftSide"></th>
+                  <th className="rightSide">
+                    <div className="d-flex justify-content-center buttonWrap">
                       <Button variant="outline-danger" className="mr-2">
                         {minus}
                       </Button>
@@ -101,21 +69,10 @@ export default class index extends Component {
               </thead>
               <tbody>
                 <tr>
-                  <th
-                    style={{ backgroundColor: "#425e6a", border: "none" }}
-                  ></th>
-                  <th
-                    style={{ backgroundColor: "#425e6a", border: "none" }}
-                  ></th>
-                  <th
-                    style={{ backgroundColor: "#425e6a", border: "none" }}
-                  ></th>
-                  <th
-                    style={{
-                      backgroundColor: "#425e6a",
-                      border: "none",
-                    }}
-                  >
+                  <th className="leftSide"></th>
+                  <th className="leftSide"></th>
+                  <th className="leftSide"></th>
+                  <th className="leftSide">
                     <p
                       style={{
                         margin: "0px 0px 0px 0px",
@@ -135,10 +92,8 @@ export default class index extends Component {
                       by +10.5
                     </p>
                   </th>
-                  <th
-                    style={{ backgroundColor: "#425e6a", border: "none" }}
-                  ></th>
-                  <th style={{ backgroundColor: "#fa6e06", border: "none" }}>
+                  <th className="leftSide"></th>
+                  <th className="rightSide">
                     <div>
                       <Button variant="secondary" size="sm" block>
                         Submit

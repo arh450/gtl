@@ -1,4 +1,38 @@
+$grey: #425e6a;
+$orange: #fa6e06;
+
 #main {
   padding: 16px;
   height: 1500px;
+}
+
+.leftSide {
+  background-color: rgba(66, 94, 106, 0.5);
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+.rightSide {
+  background-color: rgba(250, 110, 6, 0.5);
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+.atSym {
+  font-size: 1em;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 71px;
+  padding: 15px;
+}
+
+.buttonWrap {
+  margin-bottom: 5px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 71px;
+  padding: 20px;
 }
