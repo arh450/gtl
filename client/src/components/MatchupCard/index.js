@@ -13,19 +13,25 @@ export default class index extends Component {
   state = {
     tableBodyShow: "none",
     value: 0,
+    positive: "",
   };
 
   decToggle = (event) => {
     event.preventDefault();
     this.setState({ tableBodyShow: "" });
 
-    this.setState({ value: this.state.value - 0.5 });
+    if (this.state.value > -30.5) {
+      this.setState({ value: this.state.value - 0.5 });
+    }
   };
 
   incToggle = (event) => {
     event.preventDefault();
     this.setState({ tableBodyShow: "" });
-    this.setState({ value: this.state.value + 0.5 });
+
+    if (this.state.value < 30.5) {
+      this.setState({ value: this.state.value + 0.5 });
+    }
   };
 
   render() {
@@ -101,15 +107,37 @@ export default class index extends Component {
                   <th className="leftSide"></th>
                   <th className="leftSide">
                     <div className="d-flex justify-content-center">
-                      <p
-                        style={{
-                          margin: "0px 0px 0px 0px",
-                          textAlign: "center",
-                          verticalAlign: "baseline",
-                        }}
-                      >
-                        ARI by {this.state.value}
-                      </p>
+                      {this.state.value > 0 ? (
+                        <p
+                          style={{
+                            margin: "0px 0px 0px 0px",
+                            textAlign: "center",
+                            verticalAlign: "baseline",
+                          }}
+                        >
+                          ARI by +{this.state.value}
+                        </p>
+                      ) : this.state.value === 0 ? (
+                        <p
+                          style={{
+                            margin: "0px 0px 0px 0px",
+                            textAlign: "center",
+                            verticalAlign: "baseline",
+                          }}
+                        >
+                          EVEN
+                        </p>
+                      ) : (
+                        <p
+                          style={{
+                            margin: "0px 0px 0px 0px",
+                            textAlign: "center",
+                            verticalAlign: "baseline",
+                          }}
+                        >
+                          ARI by {this.state.value}
+                        </p>
+                      )}
                     </div>
                   </th>
                   <th className="leftSide"></th>
