@@ -13,7 +13,9 @@ export default class index extends Component {
   state = {
     tableBodyShow: "none",
     value: 0,
-    positive: "",
+    actual: "+10.5",
+    actualShow: "none",
+    actualColor: "",
   };
 
   decToggle = (event) => {
@@ -31,6 +33,18 @@ export default class index extends Component {
 
     if (this.state.value < 30.5) {
       this.setState({ value: this.state.value + 0.5 });
+    }
+  };
+
+  guessSubmit = (event) => {
+    event.preventDefault();
+
+    this.setState({ actualShow: "" });
+
+    if (this.state.value == this.state.actual) {
+      console.log("equal");
+    } else {
+      console.log("not equal");
     }
   };
 
@@ -115,7 +129,7 @@ export default class index extends Component {
                             verticalAlign: "baseline",
                           }}
                         >
-                          ARI by +{this.state.value}
+                          Your Guess: ARI by +{this.state.value}
                         </p>
                       ) : this.state.value === 0 ? (
                         <p
@@ -125,7 +139,7 @@ export default class index extends Component {
                             verticalAlign: "baseline",
                           }}
                         >
-                          EVEN
+                          Your Guess: EVEN
                         </p>
                       ) : (
                         <p
@@ -135,15 +149,30 @@ export default class index extends Component {
                             verticalAlign: "baseline",
                           }}
                         >
-                          ARI by {this.state.value}
+                          Your Guess: ARI by {this.state.value}
                         </p>
                       )}
                     </div>
                   </th>
                   <th className="leftSide"></th>
                   <th className="rightSide">
-                    <div>
-                      <Button variant="secondary" size="sm" block>
+                    <div className="mx-auto">
+                      <p
+                        className="text-center"
+                        style={{
+                          display: this.state.actualShow,
+                          margin: "0px 0px 7px 10px",
+                          color: "",
+                        }}
+                      >
+                        Actual: {this.state.actual}
+                      </p>
+                      <Button
+                        variant="secondary"
+                        size="sm"
+                        block
+                        onClick={this.guessSubmit}
+                      >
                         Submit
                       </Button>
                     </div>
